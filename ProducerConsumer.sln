@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMq", "RabbitMq", "{1F06CF7C-BB6E-4B98-9643-C8F53A649EA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka", "Kafka", "{2579DA78-63AF-4082-A7C8-ECAAF01C424C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{45EAB9B4-7FEB-4565-932C-B6F4D7B85CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQProducer", "RabbitMQProducer\RabbitMQProducer.csproj", "{4F8F247B-48ED-41D0-A608-AA39C1F21D8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45EAB9B4-7FEB-4565-932C-B6F4D7B85CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EAB9B4-7FEB-4565-932C-B6F4D7B85CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EAB9B4-7FEB-4565-932C-B6F4D7B85CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EAB9B4-7FEB-4565-932C-B6F4D7B85CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8F247B-48ED-41D0-A608-AA39C1F21D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8F247B-48ED-41D0-A608-AA39C1F21D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8F247B-48ED-41D0-A608-AA39C1F21D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8F247B-48ED-41D0-A608-AA39C1F21D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F8F247B-48ED-41D0-A608-AA39C1F21D8B} = {1F06CF7C-BB6E-4B98-9643-C8F53A649EA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D86003DF-3668-4334-8C3E-C12F8D3A5B1B}
+	EndGlobalSection
+EndGlobal
